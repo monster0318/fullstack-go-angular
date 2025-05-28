@@ -11,6 +11,7 @@ import (
 	"github.com/stretchr/testify/suite"
 )
 
+
 type testSuite struct {
 	testutil.Suite
 }
