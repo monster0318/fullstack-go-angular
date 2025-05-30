@@ -1,4 +1,5 @@
 mutation createUser($input: CreateUserIn!) {
+
   createUser(input: $input) {
     id
     email
