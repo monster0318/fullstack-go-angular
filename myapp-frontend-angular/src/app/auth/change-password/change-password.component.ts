@@ -13,6 +13,7 @@ import { ChangePassword } from './change-password.model';
   templateUrl: './change-password.component.html',
   styleUrls: ['./change-password.component.scss']
 })
+
 export class ChangePasswordComponent extends AbstractBaseFormComponent<ChangePassword, boolean> implements OnInit {
 
   constructor(
